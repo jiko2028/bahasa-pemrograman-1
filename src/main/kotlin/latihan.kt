@@ -26,9 +26,15 @@ import jdk.nashorn.internal.ir.CallNode.EvalArgs
 //    println(umur)
 //}
 
-fun main (args: Array<String>){
-    var namaLengkap = "Budianto"
-    namaLengkap = "Ahmad Budianto"
+//fun main (args: Array<String>){
+//    var namaLengkap = "Budianto"
+//    namaLengkap = "Ahmad Budianto"
+//
+//    println(namaLengkap)
+//}
 
-    println(namaLengkap)
+fun main (args: Array<String>){
+    var  bilangan = 5000
+
+    println(bilangan::class.qualifiedName)
 }
